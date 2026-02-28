@@ -1,4 +1,5 @@
 import streamlit as st
+from utils import generate_summary, extract_key_points, generate_questions
 
 st.set_page_config(page_title="AI Research Assistant", layout="wide")
 
@@ -17,23 +18,6 @@ st.title("🧠 AI Research Assistant (Internal Agent Prototype)")
 
 text = st.text_area("Paste your research text here:", height=200)
 
-def generate_summary(text):
-    sentences = text.split(".")
-    short_summary = ". ".join(sentences[:2])
-    return short_summary
-
-def extract_key_points(text):
-    words = text.split()
-    return list(set(words[:5]))
-
-def generate_questions(text):
-    return [
-        "What is the main objective of the study?",
-        "What methodology was used?",
-        "What are the key findings?",
-        "What are the limitations?",
-        "What future scope exists?"
-    ]
 
 if st.button("Generate Insights"):
     if text.strip() == "":
@@ -51,7 +35,7 @@ if st.button("Generate Insights"):
 
         with col2:
             st.subheader("❓ Possible Questions")
-            for q in generate_questions(text):
+            for q in generate_questions():
                 st.write(f"- {q}")
 
         st.success("Insights Generated Successfully!")
