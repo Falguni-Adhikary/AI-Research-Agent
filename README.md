@@ -54,13 +54,10 @@ streamlit run app.py
 ## 💼 Why This Project Matters
 
 This project demonstrates:
-
-- Modular programming
-- Code organization
-- Frontend-backend separation logic
-- Version control workflow
-- Research text processing fundamentals
-
+- Modular Python design
+- Streamlit application development
+- Text processing logic
+- Version control using Git & GitHub
 ---
 
 ## 🔮 Future Enhancements
