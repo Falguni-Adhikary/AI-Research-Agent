@@ -14,7 +14,9 @@ st.markdown("""
 
 st.set_page_config(page_title="AI Research Assistant", layout="wide")
 
-st.title("🧠 AI Research Assistant (Internal Agent Prototype)")
+st.title("🧠 AI Research Assistant")
+st.markdown("Transform research text into structured insights.")
+st.divider()
 
 text = st.text_area("Paste your research text here:", height=200)
 
@@ -34,7 +36,7 @@ if st.button("Generate Insights"):
                 st.write(f"- {point}")
 
         with col2:
-            st.subheader("❓ Possible Questions")
+            st.subheader("❓ Analytical Questions")
             for q in generate_questions():
                 st.write(f"- {q}")
 
