@@ -17,7 +17,9 @@ This project demonstrates modular Python design and practical application develo
 
 ## 📷 Output Interface Preview
 
+![Output Screenshot](Output_2.png)
 ![Output Screenshot](Output_1.png)
+
 
 ## 🚀 Features
 - 📄 Text Summarization
