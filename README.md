@@ -8,6 +8,17 @@ This project demonstrates modular Python design and practical application develo
 
 ---
 
+## 📷 Demo
+
+## 📷 Home Interface Preview
+
+<img src="Demo_1.png" width="45%"> 
+<img src="Demo_2.png" width="45%">
+
+## 📷 Output Interface Preview
+
+![Output Screenshot](Output_1.png)
+
 ## 🚀 Features
 - 📄 Text Summarization
 - 🔑 Key Point Extraction
@@ -65,3 +76,5 @@ This project demonstrates:
 - PDF Upload Support
 - Semantic Search
 - Research Quality Scoring System
+
+
