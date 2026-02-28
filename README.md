@@ -12,13 +12,13 @@ This project demonstrates modular Python design and practical application develo
 
 ## 📷 Home Interface Preview
 
-<img src="Demo_1.png" width="45%"> 
-<img src="Demo_2.png" width="45%">
+<img src="Assets/Demo_1.png" width="45%"> 
+<img src="Assets/Demo_2.png" width="45%">
 
 ## 📷 Output Interface Preview
 
-![Output Screenshot](Output_2.png)
-![Output Screenshot](Output_1.png)
+<img src="Assets/Output_2.png" width="45%"> 
+<img src="Assets/Output_1.png" width="45%">
 
 
 ## 🚀 Features
